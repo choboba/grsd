@@ -4,6 +4,9 @@ from flask import Flask, request
 from telebot import types
 
 import telebot
+import qrcode
+from telebot import types
+from gtts import gTTS
 
 TOKEN = '5201486189:AAE6JN4Z767FBIHC2qUIsRvqJBDna2DVn-8'
 bot = telebot.TeleBot(TOKEN)
