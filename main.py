@@ -67,10 +67,8 @@ def audiotextvoice(message):
   aud = open('audio.mp3','rb')
   bot.send_voice(message.from_user.id, aud)
   aud.close()
-
-bot.polling(none_stop=True)
-
-
+  
+  
 @server.route('/' + TOKEN, methods=['POST'])
 def getMessage():
     json_string = request.get_data().decode('utf-8')
