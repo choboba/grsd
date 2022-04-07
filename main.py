@@ -8,7 +8,7 @@ import qrcode
 from telebot import types
 from gtts import gTTS
 
-TOKEN = '5286040884:AAGJ5Qx-2uc4tu0mCJ9ewN4cWdRoWQptbTg'
+TOKEN = '5201486189:AAE6JN4Z767FBIHC2qUIsRvqJBDna2DVn-8'
 bot = telebot.TeleBot(TOKEN)
 server = Flask(__name__)
 
